@@ -13,9 +13,9 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-import artigianoCover from "../assets/artigiano-cover.jpg.asset.json";
-import fiverrCover from "../assets/fiverr-cover.jpg.asset.json";
-import shopLogo from "../assets/matt-eshop-logo.png.asset.json";
+import artigianoCover from "../assets/artigiano-cover.jpg";
+import fiverrCover from "../assets/fiverr-cover.jpg";
+import shopLogo from "../assets/matt-eshop-logo.png";
 import shopBackground from "../assets/matt-eshop-background.png";
 import { Button } from "../components/ui/button";
 
@@ -73,7 +73,7 @@ function Index() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border/70 bg-background/92 backdrop-blur-xl">
         <div className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 sm:px-8">
           <a href="#inizio" className="flex shrink-0 items-center" aria-label="Matt-eShop, torna all'inizio">
-            <img src={shopLogo.url} alt="Matt-eShop" className="h-14 w-[85px] object-contain sm:h-16 sm:w-[98px]" width={258} height={170} />
+            <img src={shopLogo} alt="Matt-eShop" className="h-14 w-[85px] object-contain sm:h-16 sm:w-[98px]" width={258} height={170} />
           </a>
           <nav className="hidden items-center gap-8 text-sm font-semibold md:flex" aria-label="Navigazione principale">
             <a className="nav-link" href="#metodo">Il metodo</a>
@@ -205,7 +205,7 @@ function Index() {
               { label: "Materiali pronti", text: "Template e script da copiare e personalizzare per rispondere ai clienti." },
               { label: "Percorso guidato", text: "Dalla scelta del servizio alla gestione della trattativa." },
             ]}
-            cover={fiverrCover.url}
+            cover={fiverrCover}
             coverAlt="Copertina ufficiale del Fiverr Ebook di Matteo Cassetta"
             infoUrl={LINKS.fiverrInfo}
             amazonUrl={LINKS.fiverrAmazon}
@@ -227,7 +227,7 @@ function Index() {
               { label: "Preventivi chiari", text: "Prepara bozze di preventivo trasparenti e professionali in pochi minuti." },
               { label: "Organizzazione ed efficienza", text: "Riordina il lavoro quotidiano e valorizza i tuoi progetti." },
             ]}
-            cover={artigianoCover.url}
+            cover={artigianoCover}
             coverAlt="Copertina ufficiale del libro L’Artigiano Aumentato di Matteo Cassetta"
             infoUrl={LINKS.artigianoInfo}
             amazonUrl={LINKS.artigianoAmazon}
