@@ -1,0 +1,9 @@
+- [x] Sostituire il logo e creare la favicon dall'immagine allegata.
+- [x] Rimuovere le scritte dalla foto allegata e usarla come sfondo iniziale.
+- [x] Aggiornare il titolo senza promettere risultati economici non verificati.
+- [x] Verificare immagini, leggibilità, navigazione e link Amazon invariati.
+- [x] Sostituire titolo e sottotitolo del hero con il testo fornito, mantenendo i link.
+- [x] Sostituire la scritta in alto "Guide pratiche di Matteo Cassetta" con "GUIDE PRATICHE DI MATT-ESHOP".
+- [x] Sostituire anche la scritta in fondo alla pagina con "Guide pratiche di Matt-eShop".
+- [x] Aggiungere la voce "Chi Sono" nel menu, verso la pagina Google Sites verificata.
+- [x] Inserire la sezione "Perché scegliere le guide di Matt-eShop" sopra "La libreria" e i nuovi testi delle due guide; verificare resa e link Amazon.
